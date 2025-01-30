@@ -1,12 +1,12 @@
 const cards = [
-    { name: "oviraptor", img: "https://nibph.github.io/img/SouleatingOviraptor-WISU-EN-R-1E.web", max: 3 },
+    { name: "oviraptor", img: "https://nibph.github.io/img/SouleatingOviraptor-WISU-EN-R-1E.webp", max: 3 },
     { name: "miscellaneousaurus", img: "/img/Miscellaneousaurus-WISU-EN-R-1E.webp", max: 3 },
     { name: "babycerasaurus", img: "/img/Babycerasaurus-WISU-EN-R-1E.webp", max: 3 },
     { name: "petiteranodon", img: "/img/Petiteranodon-WISU-EN-R-1E.webp", max: 3 },
     { name: "lost_world", img: "/img/LostWorld-WISU-EN-R-1E.webp", max: 3 },
     { name: "scrap_raptor", img: "/img/ScrapRaptor-LIOV-EN-C-1E.webp", max: 3 },
     { name: "fossil_dig", img: "/img/FossilDig-WISU-EN-R-1E.webp", max: 3 },
-    { name: "animadorned_archosaur", img: "nibph.github.io/img/AnimadornedArchosaur-WISU-EN-R-1E.webp", max: 2 }
+    { name: "animadorned_archosaur", img: "/img/AnimadornedArchosaur-WISU-EN-R-1E.webp", max: 2 }
 ];
 
 const motors = {
