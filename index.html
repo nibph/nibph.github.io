@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yu-Gi-Oh! Deck Simulator - Simulador de mazos y combos">
+    <title>Yu-Gi-Oh! Deck Simulator</title>
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900 flex flex-col items-center justify-center min-h-screen p-6">
+    <main class="bg-white p-6 rounded-lg shadow-md w-full max-w-lg text-center">
+        <h1 class="text-2xl font-semibold text-gray-800 mb-3">Yu-Gi-Oh! Deck Simulator</h1>
+        <p class="text-sm text-gray-600">Haz clic en las cartas para seleccionarlas.</p>
+
+        <div id="card-container" class="grid grid-cols-3 gap-4 mt-4"></div>
+
+        <div class="flex flex-col gap-2 mt-4">
+            <button 
+                onclick="checkMotors()" 
+                class="p-2 bg-blue-500 hover:bg-blue-600 text-white rounded-md transition-colors duration-200">
+                Ver Motores Activos
+            </button>
+
+            <button 
+                onclick="resetSelection()" 
+                class="p-2 bg-gray-300 hover:bg-gray-400 text-gray-800 rounded-md transition-colors duration-200">
+                Limpiar Selección
+            </button>
+        </div>
+
+        <div id="result" class="mt-4 text-lg font-semibold text-gray-700"></div>
+        <div id="motor-info" class="hidden mt-4 p-4 bg-gray-200 rounded-md text-left text-gray-800"></div>
+    </main>
+    <script defer src="script.js"></script>
+</body>
+</html>
