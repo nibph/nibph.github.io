@@ -6,7 +6,7 @@ const cards = [
     { name: "lost_world", img: "/img/LostWorld-WISU-EN-R-1E.webp", max: 3 },
     { name: "scrap_raptor", img: "/img/ScrapRaptor-LIOV-EN-C-1E.webp", max: 3 },
     { name: "fossil_dig", img: "/img/FossilDig-WISU-EN-R-1E.webp", max: 3 },
-    { name: "animadorned_archosaur", img: "/img/AnimadornedArchosaur-WISU-EN-R-1E.webp", max: 2 }
+    { name: "animadorned_archosaur", img/AnimadornedArchosaur-WISU-EN-R-1E.webp", max: 2 }
 ];
 
 const motors = {
