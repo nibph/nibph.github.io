@@ -1,12 +1,12 @@
 const cards = [
-    { name: "oviraptor", img: "https://static.wikia.nocookie.net/yugioh/images/2/28/SouleatingOviraptor-WISU-EN-R-1E.png/revision/latest?cb=20230605211220", max: 3 },
-    { name: "miscellaneousaurus", img: "https://static.wikia.nocookie.net/yugioh/images/a/a8/Miscellaneousaurus-WISU-EN-R-1E.png/revision/latest?cb=20230605211145", max: 3 },
-    { name: "babycerasaurus", img: "https://static.wikia.nocookie.net/yugioh/images/5/5b/Babycerasaurus-WISU-EN-R-1E.png/revision/latest?cb=20230605211308", max: 3 },
-    { name: "petiteranodon", img: "https://static.wikia.nocookie.net/yugioh/images/c/c2/Petiteranodon-WISU-EN-R-1E.png/revision/latest?cb=20230605211322", max: 3 },
-    { name: "lost_world", img: "https://static.wikia.nocookie.net/yugioh/images/f/f5/LostWorld-WISU-EN-R-1E.png/revision/latest?cb=20230605225524", max: 3 },
-    { name: "scrap_raptor", img: "https://static.wikia.nocookie.net/yugioh/images/6/6e/ScrapRaptor-LIOV-EN-C-1E.png/revision/latest?cb=20210719182045", max: 3 },
-    { name: "fossil_dig", img: "https://static.wikia.nocookie.net/yugioh/images/c/cd/FossilDig-WISU-EN-R-1E.png/revision/latest?cb=20230605224158", max: 3 },
-    { name: "animadorned_archosaur", img: "https://static.wikia.nocookie.net/yugioh/images/c/c0/AnimadornedArchosaur-WISU-EN-R-1E.png/revision/latest?cb=20230605223421", max: 2 }
+    { name: "oviraptor", img: "/img/SouleatingOviraptor-WISU-EN-R-1E.webp", max: 3 },
+    { name: "miscellaneousaurus", img: "/img/Miscellaneousaurus-WISU-EN-R-1E.webp", max: 3 },
+    { name: "babycerasaurus", img: "/img/Babycerasaurus-WISU-EN-R-1E.webp", max: 3 },
+    { name: "petiteranodon", img: "/img/Petiteranodon-WISU-EN-R-1E.webp", max: 3 },
+    { name: "lost_world", img: "/img/LostWorld-WISU-EN-R-1E.webp", max: 3 },
+    { name: "scrap_raptor", img: "/img/ScrapRaptor-LIOV-EN-C-1E.webp", max: 3 },
+    { name: "fossil_dig", img: "/img/FossilDig-WISU-EN-R-1E.webp", max: 3 },
+    { name: "animadorned_archosaur", img: "/img/AnimadornedArchosaur-WISU-EN-R-1E.webp", max: 2 }
 ];
 
 const motors = {
