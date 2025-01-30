@@ -1,5 +1,5 @@
 const cards = [
-    { name: "oviraptor", img: "/img/SouleatingOviraptor-WISU-EN-R-1E.webp", max: 3 },
+    { name: "oviraptor", img: "https://nibph.github.io/img/SouleatingOviraptor-WISU-EN-R-1E.web", max: 3 },
     { name: "miscellaneousaurus", img: "/img/Miscellaneousaurus-WISU-EN-R-1E.webp", max: 3 },
     { name: "babycerasaurus", img: "/img/Babycerasaurus-WISU-EN-R-1E.webp", max: 3 },
     { name: "petiteranodon", img: "/img/Petiteranodon-WISU-EN-R-1E.webp", max: 3 },
